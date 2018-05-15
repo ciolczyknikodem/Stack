@@ -25,7 +25,7 @@ public class IntStack implements Stack {
 
     public int peek() {
         if(isStackEmpty()) throw new EmptyStackException();
-        return 0;
+        return array[top];
     }
 
     private boolean isStackFull() {
