@@ -14,7 +14,9 @@ public class IntStack implements Stack {
     }
 
     public int pop() {
-        return 0;
+        int value = peek();
+        top--;
+        return value;
     }
 
     public void push(int x) {
